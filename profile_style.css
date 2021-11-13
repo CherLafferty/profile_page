@@ -1,0 +1,136 @@
+.flex {
+    display: flex;
+}
+.align {
+    align-items: center;
+}
+.nav {
+justify-content: space-between;
+background-color: black;
+color: white;
+padding: 0% 20% 0% 20%;
+}
+.nav-p {
+    padding: 0px 20px 0px 20px;
+}
+.btn {
+    padding: 10px 10px 10px 10px;
+    font-weight:bold;
+    color: white;
+    background-color: rgb(32, 149, 178);
+    border-color: black;
+}
+.right-of-image {
+    padding: 0px 10px 0px 10px;
+}
+a {
+    padding: 10px;
+}
+.main {
+    /*background-color: violet;*/
+    /*height: 1080px;*/
+    padding: 0% 20% 0% 20%;
+}
+.columns {
+    background-color:thistle;
+    /*height: 100%;*/
+}
+.col-1 {
+    padding: 15px;
+    flex: 2;
+    background-color: white;
+    /*height: 100%;*/
+}
+.header {
+    background-color: purple;
+    height: 50px;
+    padding: 20px;
+}
+/*.header img {
+    height: 200px;
+    width: auto;
+    border-radius: 50
+}*/
+.name {
+    padding: 10px 0px 0px 10px;
+}
+
+.bodyTL {
+    padding: 10px;
+    margin: 0px 0px 0px 20px;
+}
+.bodyL1 {
+    padding: 0px 0px 0px 10px;
+}
+.subheader {
+    background-color:darkslategray;
+    height: 40px;
+    color: white;
+    padding: 10px;
+}
+.col-2 {
+    padding: 10px;
+    flex: 3;
+    background-color:white;
+    /*height: 100%;*/
+}
+.profile {
+    border: 5px solid purple;
+    margin-bottom: 10px;
+}
+
+.columns-sm {
+    background-color:fuchsia;
+}
+.names {
+    flex: 3;
+    background-color: white;
+    padding: 5px;
+}
+.option-circles {
+    flex: 2;
+    background-color:white;
+    padding: 10px 0px 5px 10px;
+}
+.footer {
+    height: 50px;
+    border-top:  5px solid purple;
+    padding: 5px;
+}
+.edulist {
+    padding: 10px;
+}
+.graytxt {
+    color:lightslategray;
+}
+.yconnections {
+    padding: 10px;
+}
+#circle {
+    width: 30px;
+    height: 30px;
+    background:lightslategray;
+    border-radius: 50%
+}
+.circletxt {
+    color: black;
+    font-weight: bold;
+}
+#oval {
+    width: 50px;
+    height: 30px;
+    background-color:lightslategray;
+    border-radius: 70%;
+}
+.ovaltxt{
+    color: black;
+    font-weight: bold;
+}
+/*.connections {
+    display: flex;
+    /*justify-content:space-evenly;*/
+    /*flex-direction:row;*/
+/*#option-circles {
+    justify-content:space-evenly;
+    align-items: flex-end;
+    /*padding: 0% 0% 0% 30%;*/
