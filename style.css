@@ -17,11 +17,26 @@ padding: 0% 20% 0% 20%;
     padding: 10px 10px 10px 10px;
     font-weight:bold;
     color: white;
-    background-color: rgb(32, 149, 178);
+    background-color: purple;
     border-color: black;
 }
+.sub-btn {
+    color: black;
+    background-color: gray;
+    border-radius: 50%;
+    border: 1px gray;
+    width: 40px;
+    Height: 40px;
+}
+.header img {
+    height: 125px;
+    width: auto;
+    border-radius: 50%;
+    border: 50px white;
+    border-color: white;
+}
 .right-of-image {
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 20px;
 }
 a {
     padding: 10px;
@@ -45,6 +60,7 @@ a {
     background-color: purple;
     height: 50px;
     padding: 20px;
+    margin-bottom: 50px;
 }
 /*.header img {
     height: 200px;
@@ -53,6 +69,7 @@ a {
 }*/
 .name {
     padding: 10px 0px 0px 10px;
+    color: darkslategray;
 }
 
 .bodyTL {
@@ -61,6 +78,7 @@ a {
 }
 .bodyL1 {
     padding: 0px 0px 0px 10px;
+    font-weight: bold;
 }
 .subheader {
     background-color:darkslategray;
@@ -100,32 +118,44 @@ a {
 .edulist {
     padding: 10px;
 }
+.indent {
+    margin: 0px 0px 0px 50px;
+}
 .graytxt {
     color:lightslategray;
 }
 .yconnections {
     padding: 10px;
 }
-#circle {
+.sub2-btn {
+    color: black;
+    background-color: gray;
+    margin: 4px 2px;
+    width: 50px;
+    height: 40px;
+    border-radius: 100px;
+    border: 1px gray;
+}
+/*#circle {
     width: 30px;
     height: 30px;
     background:lightslategray;
     border-radius: 50%
-}
-.circletxt {
+}*/
+/*.circletxt {
     color: black;
     font-weight: bold;
-}
-#oval {
+}*/
+/*#oval {
     width: 50px;
     height: 30px;
     background-color:lightslategray;
     border-radius: 70%;
-}
-.ovaltxt{
+}*/
+/*.ovaltxt{
     color: black;
     font-weight: bold;
-}
+}*/
 /*.connections {
     display: flex;
     /*justify-content:space-evenly;*/
